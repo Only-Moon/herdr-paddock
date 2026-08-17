@@ -123,7 +123,7 @@ func looksLikeChrome(ln string) bool {
 		return true
 	}
 	// pet ASCII art: faceFor() generates these across all moods/stages/accessories
-	if strings.Contains(ln, "/\\___/\\") || strings.Contains(ln, "/\\_/\\") || strings.Contains(ln, "\\*___*/") || strings.Contains(ln, "/\\_+_/\\") || strings.Contains(ln, "~\\___/~" ) || strings.Contains(ln, "/\\_^_/\\") || strings.Contains(ln, "~\\_/\\") {
+	if strings.Contains(ln, "/\\___/\\") || strings.Contains(ln, "/\\_/\\") || strings.Contains(ln, "\\*___*/") || strings.Contains(ln, "/\\_+_/\\") || strings.Contains(ln, "~\\___/~") || strings.Contains(ln, "/\\_^_/\\") || strings.Contains(ln, "~\\_/\\") {
 		if strings.Contains(ln, "(o.o)") || strings.Contains(ln, "(-.-)") || strings.Contains(ln, "(o.-)") || strings.Contains(ln, "(O.o)") || strings.Contains(ln, "(o.O)") || strings.Contains(ln, "(^.^)") || strings.Contains(ln, "(._.)") || strings.Contains(ln, "(u.u)") {
 			return true
 		}
