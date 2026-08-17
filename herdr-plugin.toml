@@ -12,7 +12,7 @@ command = ["go", "build", "-o", "paddock", "./cmd/paddock"]
 
 [[build]]
 platforms = ["windows"]
-command = ["go", "build", "-o", "paddock.exe", "./cmd/paddock"]
+command = ["pwsh", "-NoProfile", "-ExecutionPolicy", "Bypass", "-Command", "go build -o paddock.exe ./cmd/paddock"]
 
 
 [[panes]]
